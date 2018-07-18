@@ -15,6 +15,31 @@ class Landing extends Component{
                <div className="banner-text">
                   <h1>Fulstack Software Engineer</h1>
                   <hr />
+                  <p>HTML/CSS |React |Redux |React-Native |MongoDb |Nodejs |Express.js |Spring Boot |Microservice
+                   |Docker</p>
+                   <div className="social-links">
+
+                   {/*linkedin */}
+                   <a href="http://google.com" rel="noopner noreferrer"  target="_blank">
+                   <i className ="fa fa-linkedin-square" aria-hidden="true" />
+                   </a>
+
+                   {/*Github */}
+                   <a href="http://github" rel="noopner noreferrer"  target="_blank">
+                   <i className ="fa fa-github-square" aria-hidden="true" />
+                   </a>
+
+                   {/*Twitter */}
+                   <a href="http://twitter.com" rel="noopner noreferrer"  target="_blank">
+                   <i className ="fa fa-twitter-square" aria-hidden="true" />
+                   </a>
+
+                   {/*Facebook */}
+                   <a href="http://twitter.com" rel="noopner noreferrer"  target="_blank">
+                   <i className ="fa fa-facebook-square" aria-hidden="true" />
+                   </a>
+
+                   </div>
                </div>
            </Cell>
        </Grid>
