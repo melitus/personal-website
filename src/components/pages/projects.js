@@ -29,18 +29,60 @@ class Projects extends Component{
 toggleCategories(){
   if(this.state.activeTab == 0){
     return(
+      <div className="projects-grid">
+      {/*Project 1 */}
        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-         <CardTitle style={{color: '#fff', height:'175px', background:
+         <CardTitle style={{color: 'black', height:'176px', background:
          'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>
             React project #1
          </CardTitle>
-         <CardText>Browse through react projects</CardText>
+         <CardText>Browse through react projects </CardText>
          <CardActions border>
             <Button colored>Github</Button>
-            <Button colored>codementor</Button>
-            <Button colored>LiveDemo</Button>
+            <Button colored>code</Button>
+            <Button colored>Live Demo</Button>
          </CardActions>
+         <CardMenu style={{color:'#fff'}}>
+            <IconButton name='share' />
+         </CardMenu>
        </Card>
+
+       {/*Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: 'black', height:'176px', background:
+          'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>
+             React project #2
+          </CardTitle>
+          <CardText>Browse through react projects </CardText>
+          <CardActions border>
+             <Button colored>Github</Button>
+             <Button colored>code</Button>
+             <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color:'#fff'}}>
+             <IconButton name='share' />
+          </CardMenu>
+        </Card>
+
+        {/*Project 3 */}
+         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+           <CardTitle style={{color: 'black', height:'176px', background:
+           'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>
+              React project #3
+           </CardTitle>
+           <CardText>Browse through react projects </CardText>
+           <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>code</Button>
+              <Button colored>Live Demo</Button>
+           </CardActions>
+           <CardMenu style={{color:'#fff'}}>
+              <IconButton name='share' />
+           </CardMenu>
+         </Card>
+
+      </div>
+
     )
   } else if (this.state.activeTab == 1) {
     return(
@@ -67,13 +109,13 @@ toggleCategories(){
            <Tab>Rest Api</Tab>
         </Tabs>
 
-        <section className="projects-grid">
-          <Grid className="projects-grid">
+
+          <Grid >
             <Cell col={12}>
                <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-        </section>
+
       </div>
     )
   }
