@@ -12,6 +12,10 @@ class Landing extends Component{
                alt="avatar"
                className="avatar-img"
                />
+               <div className="banner-text">
+                  <h1>Fulstack Software Engineer</h1>
+                  <hr />
+               </div>
            </Cell>
        </Grid>
      </div>
