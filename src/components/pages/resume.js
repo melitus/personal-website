@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class Resume extends Component{
- render{
+ render() {
    return(
      <div>
         <h1>Resume Page</h1>
