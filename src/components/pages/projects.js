@@ -1,5 +1,16 @@
 import React, {Component} from 'react';
-import { Tabs, Tab } from 'react-mdl';
+import {
+   Tabs,
+   Tab,
+   Grid,
+   Cell,
+   Card,
+   CardTitle,
+   CardActions,
+   CardText,
+   Button,
+   CardMenu,
+   IconButton } from 'react-mdl';
 
 class Projects extends Component{
   constructor(props){
@@ -14,15 +25,36 @@ class Projects extends Component{
       activeTab: tabId
     })
   }
+
 toggleCategories(){
   if(this.state.activeTab == 0){
     return(
-      <div>
-        <h1>This is react</h1>
-      </div>
+       <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+         <CardTitle style={{color: '#fff', height:'175px', background:
+         'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>
+            React project #1
+         </CardTitle>
+         <CardText>Browse through react projects</CardText>
+         <CardActions border>
+            <Button colored>Github</Button>
+            <Button colored>codementor</Button>
+            <Button colored>LiveDemo</Button>
+         </CardActions>
+       </Card>
+    )
+  } else if (this.state.activeTab == 1) {
+    return(
+    <div><h1>This is React Native</h1></div>
+    )
+  } else if (this.state.activeTab == 2) {
+    return(
+      <div><h1>This is Mongodb</h1></div>
+    )
+  }else if (this.state.activeTab == 3) {
+    return(
+          <div><h1>This is  Rest Api</h1></div>
     )
   }
-
 }
 
   render(){
@@ -36,7 +68,11 @@ toggleCategories(){
         </Tabs>
 
         <section className="projects-grid">
-        {this.toggleCategories()}
+          <Grid className="projects-grid">
+            <Cell col={12}>
+               <div className="content">{this.toggleCategories()}</div>
+            </Cell>
+          </Grid>
         </section>
       </div>
     )
