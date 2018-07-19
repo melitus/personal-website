@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
+import Footer from './footer';
+
 class Contact extends Component {
   render() {
     return(
@@ -48,6 +50,7 @@ class Contact extends Component {
             </div>
           </Cell>
         </Grid>
+        <Footer />
       </div>
     )
   }

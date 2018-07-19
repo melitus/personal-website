@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Footer from './footer';
 
 class Landing extends Component{
  render() {
@@ -15,8 +16,8 @@ class Landing extends Component{
                <div className="banner-text">
                   <h1>Fulstack Software Engineer</h1>
                   <hr />
-                  <p>HTML/CSS |React |Redux |React-Native |MongoDb |Nodejs |Express.js |Spring Boot |Microservice
-                   |Docker</p>
+                  <p>HTML/CSS |React |Redux |JavaScript |React-Native |MongoDb |Nodejs |Express.js |Spring Boot |Microservice
+                   |Docker |Hapi.js |Java |Spring Boot |Linux |CICD |Heroku |Swing framework |Bash</p>
                    <div className="social-links">
 
                    {/*linkedin */}
@@ -30,7 +31,7 @@ class Landing extends Component{
                    </a>
 
                    {/*Twitter */}
-                   <a href="http://twitter.com" rel="noopner noreferrer"  target="_blank">
+                   <a href="http://twitter.com" rel="noopner noreferrer"  target="_blank" >
                    <i className ="fa fa-twitter-square" aria-hidden="true" />
                    </a>
 
@@ -43,6 +44,7 @@ class Landing extends Component{
                </div>
            </Cell>
        </Grid>
+       <Footer />
      </div>
    )
  }

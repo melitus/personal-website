@@ -12,6 +12,9 @@ import {
    CardMenu,
    IconButton } from 'react-mdl';
 
+   import Footer from './footer';
+
+
 class Projects extends Component{
   constructor(props){
     super(props)
@@ -115,7 +118,7 @@ toggleCategories(){
                <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-
+<Footer />
       </div>
     )
   }

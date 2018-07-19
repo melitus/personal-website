@@ -9,7 +9,6 @@ background: #833ab4;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 text-align: center;
-position: fixed;
 top: 0;
 left:0;
 width: 100%;
@@ -48,6 +47,18 @@ height:100%;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
+}
+.btn-social-header {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  border: 2px solid white;
+  border-radius: 70%;
+  text-align: center;
+  justify-content: center;
+  font-size: 55px;
+  /* line-height: 250px; */
+  color: #473be7;
 }
 
 .contact-grid {
@@ -105,7 +116,43 @@ height:100%;
 }
 
 .social-links i{
-  color: white;
+  display: inline-block;
+  color: #473be7;
   font-size: 5em;
+  border-radius: 70%;
   padding: 8px;
+  height: 70px;
+  width: 70px;
+  border: 2px solid white;
+  transform: scaleX(.7) scaleY(.7);
+  transition: all .4s;
+}
+.social-links i:hover::after{
+transform: scale(2);
+}
+.footer {
+  color: white;
+}
+
+.footer h3 {
+  margin-bottom: 30px;
+}
+
+.footer .footer-above {
+  padding-top: 50px;
+  background-color: #000120;
+}
+
+.footer .footer-col {
+  margin-bottom: 50px;
+}
+
+.footer .footer-below {
+  padding: 25px 0;
+  background-color: #473be7;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
 }
