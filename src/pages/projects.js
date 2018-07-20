@@ -12,7 +12,7 @@ import {
    CardMenu,
    IconButton } from 'react-mdl';
 
-   import Footer from '../footer/footer';
+   import Footer from '../components/footer/footer';
 
 
 class Projects extends Component{
