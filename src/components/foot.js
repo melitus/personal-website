@@ -1,4 +1,5 @@
 <!-- Footer -->
+<Footer size="mega" className="footer"
   <footer class="text-center">
     <div class="footer-above">
       <div class="container">

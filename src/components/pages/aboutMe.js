@@ -33,6 +33,8 @@ I also have an interest and good understanding of UX and design, and I will alwa
 						Outside of that, I love to read, play my ukulele, and play
 						intramural sports. As of late, I am exploring the daunting world of
 						writing.
+
+            In my free time, I enjoy contributing to the open source community and playing around with languages such as Clojure and Racket. Outside of work, I spend much of my time reading, playing tennis, and traveling.
 					</p>
          </Cell>
          </Grid>
