@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
-import Footer from './footer';
-import img from '../../assets/santino.jpeg';
+import Education from '../components/education/education';
+import Experience from '../components/experience/experience';
+import Skills from '../components/skills/skills';
+import Footer from '../components/footer/footer';
+import img from '../assets/images/santino.jpeg';
+
 
 
 class Resume extends Component {

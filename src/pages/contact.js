@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
-import Footer from './footer';
+import Footer from '../components/footer/footer';
 
 class Contact extends Component {
   render() {
