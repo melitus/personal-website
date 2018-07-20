@@ -5,7 +5,7 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import Footer from './footer';
-
+import img from '../../assets/santino.jpeg';
 
 
 class Resume extends Component {
@@ -16,9 +16,10 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src={img}
                 alt="avatar"
                 style={{height: '200px'}}
+                className="profile-pic"
                  />
             </div>
 
@@ -28,11 +29,11 @@ class Resume extends Component {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>Lagos Nigeria</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>(234) 8061329356</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <p>asmelitus@gmail.com</p>
             <h5>Web</h5>
             <p>mywebsite.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>

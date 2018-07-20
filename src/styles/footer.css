@@ -508,7 +508,8 @@ ui.list-inline{
  overflow: hidden;
  border-color: inherit;
 }
-
+@@media (min-width:768px).container {
+}
 .container{
   padding-left: 15px;
   padding-right: 15px;

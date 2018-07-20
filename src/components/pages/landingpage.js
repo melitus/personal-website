@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Footer from './footer';
-const img = require('../../assets/santino.jpeg');
+import img from '../../assets/santino.jpeg';
+import SocialMedia from './social_media';
+
 
 class Landing extends Component{
 
@@ -19,30 +21,9 @@ class Landing extends Component{
                   <h1>Fulstack Software Engineer</h1>
                   <hr />
                   <p>HTML/CSS |React |Redux |JavaScript |React-Native |MongoDb |Nodejs |Express.js |Spring Boot |Microservice
-                   |Docker |Hapi.js |Java |Spring Boot |Linux |CICD |Heroku |Swing framework |Bash</p>
-                   <div className="social-links">
+                   |Docker |Hapi.js |Java |Spring Boot |Linux |CICD |Heroku |Agile Methodology |Bash</p>
 
-                   {/*linkedin */}
-                   <a href="http://google.com" rel="noopner noreferrer"  target="_blank">
-                   <i className ="fa fa-linkedin-square" aria-hidden="true" />
-                   </a>
-
-                   {/*Github */}
-                   <a href="http://github" rel="noopner noreferrer"  target="_blank">
-                   <i className ="fa fa-github-square" aria-hidden="true" />
-                   </a>
-
-                   {/*Twitter */}
-                   <a href="http://twitter.com" rel="noopner noreferrer"  target="_blank" >
-                   <i className ="fa fa-twitter-square" aria-hidden="true" />
-                   </a>
-
-                   {/*Facebook */}
-                   <a href="http://twitter.com" rel="noopner noreferrer"  target="_blank">
-                   <i className ="fa fa-facebook-square" aria-hidden="true" />
-                   </a>
-
-                   </div>
+                   <SocialMedia />
                </div>
            </Cell>
        </Grid>

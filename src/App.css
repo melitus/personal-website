@@ -25,11 +25,40 @@ height:100%;
 
 .banner-text{
   background-color: black;
-  opacity: 8;
+  opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
 
+}
+.btn-social-header {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  justify-content: center;
+  font-size: 55px;
+  /* line-height: 250px; */
+  color: #473be7;
+}
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #473be7;
+  background: white;
+  border: solid 1px white;
 }
 /* Resume Page css */
 .resume-right-col {
@@ -41,6 +70,10 @@ height:100%;
 /* contact page css */
 
 .contact-body {
+  background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin: auto;
   position: fixed;
   width: 100%;
@@ -132,6 +165,8 @@ transform: scale(2);
 }
 .footer {
   color: white;
+  align-items: flex-end;
+  display: block;
 }
 
 .footer h3 {
@@ -151,8 +186,127 @@ transform: scale(2);
   padding: 25px 0;
   background-color: #473be7;
 }
+.footer footer-col {
+  margin-bottom: 50px;
+}
+.row{
+  margin-left: -15px;
+  margin-right: 15px;
+  background: blue;
+  box-sizing: border-box;
+  display: block;
+}
+footer .footer-col{
+  margin-bottom: 50px;
+}
+.list-inline{
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-left: -5px;
+  padding-left: 10px;
+      display: inline-block;
+
+}
+ui.list-inline{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 .profile-pic {
   border-radius: 50%;
   width: 320px;
   height: 320px;
+}
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #303030;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: #11ABB0; }
+
+/* copyright */
+footer .copyright {
+    margin: 0;
+    padding: 0;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #095153;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+
+.about-page {
+  padding-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+  justify-content: center;
+
+  @include breakpoint-small-down {
+    padding-top: 3rem;
+  }
+
+  h1 {
+    padding: 1rem 0;
+    font-size: 3rem;
+  }
+
+  .content-grid {
+    flex: auto;
+  }
+
+  .about-wrapper {
+
+    .about-content {
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+
+      @include breakpoint-small-down {
+        font-size: 1rem;
+      }
+
+      p {
+        font-weight: 300;
+        padding: 0.5rem 0;
+      }
+
+      .text-emoji {
+        padding: 2rem 0;
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+  }
+
 }

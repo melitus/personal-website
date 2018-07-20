@@ -9,73 +9,44 @@ import {
   FooterDropDownSection,
   FooterLinkList} from 'react-mdl';
 
+  import SocialMedia from './social_media';
+
 class Footers extends Component {
 
   render() {
     return(
 
-
-      <Footer  size="mega" className="footer">
-         <div className="fWrapper">
-         <FooterSection className="fInner" type="middle">
-                 <FooterDropDownSection title="More about Me">
-            <List>
-            <h3>Find me on:</h3>
-
-              <ListItem>
-              <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-              </ListItem>
-              <ListItem>
-              <ListItemContent icon="person">Aaron Paul</ListItemContent>
-              </ListItem>
-              <ListItem>
-              <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-              </ListItem>
-           </List>
-        </FooterDropDownSection>
-    </FooterSection>
-         <FooterSection className="fInner" type="middle">
-                 <FooterDropDownSection title="More about Me">
-            <List>
-            <h3>Find me on:</h3>
-
-              <ListItem>
-              <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-              </ListItem>
-              <ListItem>
-              <ListItemContent icon="person">Aaron Paul</ListItemContent>
-              </ListItem>
-              <ListItem>
-              <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-              </ListItem>
-           </List>
-        </FooterDropDownSection>
-    </FooterSection>
-         <FooterSection className="fInner" type="middle">
-                 <FooterDropDownSection title="More about Me">
-            <List>
-            <h3>Find me on:</h3>
-
-              <ListItem>
-              <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-              </ListItem>
-              <ListItem>
-              <ListItemContent icon="person">Aaron Paul</ListItemContent>
-              </ListItem>
-              <ListItem>
-              <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-              </ListItem>
-           </List>
-        </FooterDropDownSection>
-    </FooterSection>
-
-         </div>
-    <div style={{textAlign:'center'}}>
-      <strong>Copyright &copy; Sunday Aroh 2018</strong>
-    </div>
-</Footer>
-
-
+      <footer>
+            <div className='row'>
+                <div className='twelve columns'>
+                <SocialMedia />
+                    <ul className='copyright'>
+                        <li>
+                            This site is developed in React.js by&nbsp;
+                            <a
+                                href='https://suddi.github.io'
+                                title='Sudharshan Ravindran'
+                                target='_blank'
+                                rel='noopener noreferrer'>
+                                Sudharshan Ravindran
+                            </a> from the original design of Ceevee from&nbsp;
+                            <a
+                                href='http://www.styleshout.com/'
+                                title='Styleshout'
+                                target='_blank'
+                                rel='noopener noreferrer'>
+                                Styleshout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id='go-top'>
+                    <a className='smoothscroll' title='Back to Top' href='#home'>
+                        <i className='icon-up-open'/>
+                    </a>
+                </div>
+            </div>
+        </footer>
     )
   }
 }

@@ -6,40 +6,42 @@ import Footer from './footer';
 class About extends Component{
  render() {
    return(
-     <div className="contact-body">
-       <Grid className="contact-grid">
-         <Cell col={6}>
-           <h2>Sunday Aroh</h2>
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I am a focused and ambitious Senior/Lead Front End Developer with solid experience creating sites, applications and tooling for a wide range of clients and sectors including financial, commercial, retail, automotive and advertising for global recognised companies such as BBC and Saatchi & Saatchi. I have a broad knowledge of JavaScript, am proficient in a number of modern frameworks (React, Angular, Vue, Redux) and have experience managing and mentoring front end teams.
+     <section id='about'>
+        <div className="container">
+            <h3 className='white-color'>Who Am I?</h3>
+            <hr className='white-color'/>
+            <p className='text-faded'>Growing up building computers, I've always had a passion for building and creating things. So when I graduated with a bachelor's in electrical engineering from Cal Poly San Luis Obispo, it was both an accomplishment and a dream. Next, it was designing solid state drives (SSD) at Kingston Technology where I got to take concepts and turn them into products. Now I want to take my passion, education, and experience to develop websites and applications.</p>
+            <div className='row'>
+            <img id="aboutImg" className='col s10 m6 l4 offset-s1 offset-m3 offset-l4 responsive-img' src="" alt="About me"/>
+            </div>
+            <div className="text-faded center-align"><em>"Where there's a will, there's a way."</em></div>
+            <p className='text-faded'>My approach to UX/UI design and software development is to balance form and function. I think a design should be intuitive, visually balanced, and it allows the content to shine. Designs that create a great user experience are significant because they cause people to buy products from the same company over and over again. Additionally, implementing designs with code efficiency in mind will enhance performance, scalability, and overall product quality. With this approach, there is no limit on what can be achieved.</p>
 
-My passion for web development coupled with my ability to pick up new skills quickly means that I stay on top of most relevant technologies and directions. I achieve this by attending various conferences and talks around Europe and spending my free time experimenting and getting to grips with modern development trends that may not be a fit for my current projects. I'm currently most excited about functional programming patterns with tools such as Ramda and ReasonMl and modern API approaches such as GraphQl.
-
-Due to my previous exposure and familiarity with backend technologies I am also comfortable taking ownership of the full stack and have experience in Node, PHP, Python and Scala as well as various database languages. I also have experience in Agile, prototyping and waterfall development methodologies as well as tools like JIRA.
-
-In recent positions I have been given the responsibility to perform in a lead capacity, where I can help and mentor more junior developers. I have found this to be a rewarding part of my role, It has also helped to learn the technologies better through teaching.
-
-I also have an interest and good understanding of UX and design, and I will always try to work with designers to help them translate their ideas into usable and scalable systems.
-              </p>
-               <p>Creativity is a breed of history and perspective.</p>
-					<p>
-
-						I've realized that anything innovative has stemmed from an original
-						idea that someone else had. Taking something that is great, and
-						remaking into something that is your own is an amazing feeling, and
-						that's why I've fallen in love with web development.
-					</p>
-          <p>
-          When I’ m not coding, I love to go to the countryside to recharge, watch Film Noir and mystery movies, listen to music, ponder over surrealist art, and create exotic cuisine.
-						Outside of that, I love to read, play my ukulele, and play
-						intramural sports. As of late, I am exploring the daunting world of
-						writing.
-
-            In my free time, I enjoy contributing to the open source community and playing around with languages such as Clojure and Racket. Outside of work, I spend much of my time reading, playing tennis, and traveling.
-					</p>
-         </Cell>
-         </Grid>
-         <Footer />
+            <h4 className='white-color'>Background</h4>
+            <hr className='white-color sub'/>
+            <div className="row">
+            <div className="col s12 m4">
+                <img src="" alt="LearningFuze" className='bgImg responsive-img'/>
+            <div className="background-text text-faded">
+                Completing LearningFuze's <em>Full Immersion Web Development Program </em>has laid the foundation for my <strong>software development</strong> career.
+            </div>
         </div>
+        <div className="col s12 m4">
+            <img src="" alt="Kingston" className='bgImg responsive-img'/>
+            <div className="background-text text-faded">
+                5+ years experience as a <strong>Flash Design Engineer </strong>at <em>Kingston Technology</em> has molded me into an engineer that can take a concept and develop it into a high volume product.
+            </div>
+        </div>
+        <div className="col s12 m4">
+            <img src="" alt="Cal Poly" className='bgImg responsive-img'/>
+            <div className="background-text text-faded">
+                Earning my bachelor's degree in <strong>Electrical Engineering</strong> while applying Cal Poly's <em>Learn by Doing</em> approach is how I acquired my logical and analytical skills.
+            </div>
+        </div>
+            </div>
+
+        </div>
+        </section>
    )
  }
 }
