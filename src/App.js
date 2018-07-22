@@ -11,6 +11,7 @@ const App = () => (
   <Layout>
       <Header className="header-color" title="Sunday Aroh" scroll>
           <Navigation>
+              <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
@@ -19,6 +20,7 @@ const App = () => (
       </Header>
       <Drawer title="Title">
           <Navigation>
+          <Link to="/landing">Home</Link>
           <Link to="/resume">Resume</Link>
           <Link to="/aboutme">About Me</Link>
           <Link to="/projects">Projects</Link>
