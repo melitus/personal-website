@@ -2,6 +2,10 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "npm": "6.0.1",
+  "node": "8.11.1"
+},
   "dependencies": {
     "classnames": "^2.2.6",
     "mdbreact": "^4.6.0",

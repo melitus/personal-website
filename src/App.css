@@ -262,8 +262,32 @@ footer .copyright  li:first-child:before {
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
+.about-me-paragraph {
+  font-size: 25px;
+}
+section {
+    padding: 100px 0px;
+    display: block;
+}
+section.success {
+  background: linear-gradient(to right, rgb(36, 36, 62), rgb(48, 43, 99), rgb(15, 12, 41));
 
-
+}
+@media (min-width: 768px)
+.sectionwrapper {
+    width: 750px;
+}
+.sectionwrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
 .about-page {
   padding-top: 2rem;
   min-height: 100vh;

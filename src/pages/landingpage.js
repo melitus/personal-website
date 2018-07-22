@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Footer from '../footer/footer';
-import img from '../../assets/images/santino.jpeg';
-import SocialMedia from '../socialmedia/social_media';
+
+import Footer from '../components/footer/footer';
+import img from '../assets/images/santino.jpeg';
+import SocialMedia from '../components/socialmedia/social_media';
 
 
 class Landing extends Component{
