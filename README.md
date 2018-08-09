@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+# React JS Personal website     
+![ReactJS Personal Website](sundayPersonal.png?raw=true "ReactJS Personal Website")
+
+### <a href="https://melitus-aroh.herokuapp.com/">LIVE DEMO</a> 
+
 # Start building your own website
 This repo is created to demostrate how to build personal website with React.
 
