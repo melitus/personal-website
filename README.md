@@ -23,12 +23,15 @@ Installing Nodemon is also highly recommended as it watches for any changes that
 npm install nodemon -g 
 ```
 
-### Installing dependencies
-The prescribed dependencies needed for building a website are listed in the `package.json` file of this repository.
-Once this repo is cloned to your local drive, from within the root directory:
-```
-yarn install
-```
+
+## Commands
+
+`yarn install` to install dependencies
+
+`yarn start` to run development version on browser
+
+`yarn run build` to build distribution version
+
 
 
 ### The steps to create a website include:
