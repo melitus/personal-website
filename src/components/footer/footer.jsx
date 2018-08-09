@@ -11,12 +11,14 @@ import styles from './footer.scss';
 class Footer extends Component {
     render(){
         return (
-            <footer className="clearfix">
-                <div className="container">
-                    <FooterLinks />
-                    <FooterCopyright />
-                </div>
-            </footer>
+          <footer class="page-footer font-small blue">
+
+<div class="footer-copyright text-center py-3">© 2018 Copyright:
+  <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+</div>
+
+</footer>
+
         );
     }
 }

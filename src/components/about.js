@@ -19,3 +19,10 @@
     </div>
   </div>
 </section>
+Life isn't about finding yourself. Life is about creating yourself.
+George Bernard Shaw
+Hello, I am a pragmatic and result-oriented software engineering professional with 2 years of full-stack development experience in industry. Graduate student for Software Engineering at SJSU, rigorously honing my skills to develop secure and scalable enterprise applications.
+
+I work/program with an ultimate goal of serving the desired purpose as well as keeping/making things simple and efficient.
+
+Currently looking for Internship/Co-op Opportunities from Fall 2018.

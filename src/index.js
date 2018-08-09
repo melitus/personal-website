@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import {BrowserRouter} from 'react-router-dom';
+import 'font-awesome/css/font-awesome.css';
+
 
 import './index.css';
 import App from './App';

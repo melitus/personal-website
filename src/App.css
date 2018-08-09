@@ -273,10 +273,7 @@ section.success {
   background: linear-gradient(to right, rgb(36, 36, 62), rgb(48, 43, 99), rgb(15, 12, 41));
 
 }
-@media (min-width: 768px)
-.sectionwrapper {
-    width: 750px;
-}
+
 .sectionwrapper {
     padding-right: 15px;
     padding-left: 15px;
@@ -295,10 +292,7 @@ section.success {
 	flex: 0 1 auto;
 	flex-direction: column;
   justify-content: center;
-
-  @include breakpoint-small-down {
-    padding-top: 3rem;
-  }
+}
 
   h1 {
     padding: 1rem 0;
@@ -307,30 +301,5 @@ section.success {
 
   .content-grid {
     flex: auto;
-  }
-
-  .about-wrapper {
-
-    .about-content {
-      font-size: 0.875rem;
-      line-height: 1.5rem;
-
-      @include breakpoint-small-down {
-        font-size: 1rem;
-      }
-
-      p {
-        font-weight: 300;
-        padding: 0.5rem 0;
-      }
-
-      .text-emoji {
-        padding: 2rem 0;
-        font-size: 1.5rem;
-        font-weight: 300;
-        text-align: center;
-      }
-    }
-  }
-
+  
 }
