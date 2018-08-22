@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-import Footer from '../components/footer/footer';
+import Footer from '../components/Footer/Footer';
 import img from '../assets/images/santino.jpeg';
-import SocialMedia from '../components/socialmedia/social_media';
+import SocialMedia from '../components/Socialmedia/Social_media';
 
 
 class Landing extends Component{
@@ -21,7 +21,7 @@ class Landing extends Component{
                <div className="banner-text">
                   <h1>Fulstack Software Engineer</h1>
                   <hr />
-                  <p>HTML/CSS |React |Redux |JavaScript |React-Native |MongoDb |Nodejs |Express.js |Spring Boot |Microservice
+                  <p>HTML/CSS |React |Redux |JavaScript |React-Native |MongoDb |Nodejs |Express.js |Redis |Microservice
                    |Docker |Hapi.js |Java |Spring Boot |Linux |CICD |Heroku |Agile Methodology |Bash</p>
 
                    <SocialMedia />

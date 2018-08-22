@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-import Education from '../components/education/education';
-import Experience from '../components/experience/experience';
-import Skills from '../components/skills/skills';
-import Footer from '../components/footer/footer';
+import Education from '../components/Education/Education';
+import Experience from '../components/Experience/Experience';
+import Skills from '../components/Skills/Skills';
+import Footer from '../components/Footer/Footer';
 import img from '../assets/images/santino.jpeg';
 
 
@@ -44,8 +44,8 @@ class Resume extends Component {
               <Education
                 startYear={2002}
                 endYear={2006}
-                schoolName="My University"
-                schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                schoolName="Univesity of Nigeria, Nsukka"
+                schoolDescription="Electronic Engineering (B.Engr) -- 2007- 2012"
                  />
                  <Education
                    startYear={2007}
